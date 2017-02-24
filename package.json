@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "A simple HTTP API",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJKaufman/http-api-assignment.git"
+  },
+  "author": "Aidan Kaufman",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AJKaufman/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/AJKaufman/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
